@@ -1,0 +1,40 @@
+*{ margin:0; box-sizing:border-box;}
+
+body {
+    font:16px/1.3 sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    width:1200px;
+    margin:auto;
+}
+
+.header{
+    background:#faa;
+    padding:20px;
+}
+.nav{
+    background:#333;
+    padding:10px;
+    color:#fff;
+}
+.main{
+    background:#afa;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.aside {
+    padding: 150px;
+    background:#afa;
+}
+.section{
+    padding: 150px;
+    background:#ccc;
+}
+
+.footer{
+    background:#aaf;
+    padding:10px;
+}
