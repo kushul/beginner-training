@@ -21,18 +21,17 @@ body {
     padding:10px;
     color:#fff;
 }
-.main{
+.main {
     background:#afa;
+    display: flex;
 }
 .aside {
     width: 25%;
-    float: left;
     padding: 150px;
     background:#afa;
 }
 .section{
     width: 75%;
-    float: left;
     padding: 150px;
     background:#ccc;
 }
